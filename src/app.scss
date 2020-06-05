@@ -1,0 +1,14 @@
+$colore-sfondo-titolo: rgba(0, 0, 0, 0.808);
+$colore-testo-titolo: rgba(255, 0, 0, 0.726);
+$colore-sfondo-sottotitolo: rgba(0, 128, 0, 0.397);
+$colore-testo-sottotitolo: rgba(0, 0, 255, 0.541);
+
+h1 {
+    background-color: $colore-sfondo-titolo;
+    color: $colore-testo-titolo;
+}
+
+h2 {
+    background-color: $colore-sfondo-sottotitolo;
+    color: $colore-testo-sottotitolo;
+}
