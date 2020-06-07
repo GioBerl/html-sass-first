@@ -5,7 +5,7 @@ npm init -y;
 npm install laravel-mix --save-dev;
 cp node_modules/laravel-mix/setup/webpack.mix.js ./;
 touch .gitignore;
-echo '.DS_Store\nnode_modules/\npackage-lock.json' >> .gitignore;
+echo ".DS_Store`rnode_modules/`rpackage-lock.json" >> .gitignore;
 mkdir src;
 cd src;
 touch app.js app.scss;
