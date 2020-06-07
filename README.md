@@ -1,4 +1,4 @@
-tramite terminale entra nella cartella di progetto. una volta dentro, copia (Ctrl + C) e incolla (Ctrl + V) interamente:
+tramite terminale **<u><mark>entra nella cartella di progetto</mark></u>**. una volta dentro, copia (Ctrl + C) e incolla (Ctrl + V) interamente:
 
 ```bash
 npm init -y;
@@ -14,7 +14,7 @@ npm install cross-env --save-dev;
 touch index.html
 ```
 
-dentro webpack.mix.js sostituisci la riga 
+dentro il file *webpack.mix.js* sostituisci la riga 
 
 ```js
 mix.js("src/app.js", "dist/").sass("src/app.scss", "dist/");
@@ -26,7 +26,7 @@ con
 mix.js("src/app.js", "public/").sass("src/app.scss", "public/");
 ```
 
-poi nel file package.json al posto di
+poi nel file *package.json* al posto di
 
 ```json
 "scripts": {
@@ -46,7 +46,8 @@ incolla
         "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
 }
 ```
-nel file index.html ricorda di aggiungere nell' head:
+
+nel file *index.html* ricorda di aggiungere nell' head:
 
 ```html
 <link rel="stylesheet" href="public/app.css">
@@ -57,4 +58,3 @@ salva e ora dovresti poter usare
 ```bash
 npm run dev
 ```
-
