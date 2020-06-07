@@ -1,4 +1,4 @@
-tramite terminale entra nella cartella di progetto. una volta dentro incolla:
+tramite terminale entra nella cartella di progetto. una volta dentro incolla interamente:
 
 ```bash
 npm init -y;
