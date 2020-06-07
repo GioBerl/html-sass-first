@@ -14,7 +14,7 @@ npm install cross-env --save-dev;
 touch index.html
 ```
 
-dentro webpack.mix.js cambio 
+dentro webpack.mix.js sostituisci la riga 
 
 ```js
 mix.js("src/app.js", "dist/").sass("src/app.scss", "dist/");
