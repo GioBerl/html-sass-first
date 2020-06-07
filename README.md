@@ -11,7 +11,7 @@ cd src;
 touch app.js app.scss;
 cd ..;
 npm install cross-env --save-dev;
-touch index.html;
+touch index.html
 ```
 
 dentro webpack.mix.js cambio 
