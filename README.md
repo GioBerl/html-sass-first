@@ -28,8 +28,12 @@ touch .gitignore;
 echo ".DS_Store\nnode_modules/\npackage-lock.json" >> .gitignore;
 mkdir src;
 cd src;
-touch app.js app.scss;
-cd ..;
+mkdir js scss;
+cd js;
+touch app.js;
+cd ../scss;
+touch app.scss;
+cd ../..;
 npm install cross-env --save-dev;
 touch index.html
 ```
@@ -43,7 +47,7 @@ mix.js("src/app.js", "dist/").sass("src/app.scss", "dist/");
 con
 
 ```js
-mix.js("src/app.js", "public/").sass("src/app.scss", "public/");
+mix.js("src/js/app.js", "public/").sass("src/scss/app.scss", "public/");
 ```
 
 poi nel file *package.json* al posto di
