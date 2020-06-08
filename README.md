@@ -9,8 +9,12 @@ touch .gitignore;
 echo "node_modules/`rpackage-lock.json" >> .gitignore;
 mkdir src;
 cd src;
-touch app.js app.scss;
-cd ..;
+mkdir js scss;
+cd js;
+touch app.js;
+cd ../scss;
+touch app.scss;
+cd ../..;
 npm install cross-env --save-dev;
 touch index.html
 ```
