@@ -42,9 +42,14 @@ cd ..;
 mkdir scss;
 cd scss;
 touch app.scss;
-cd ../..;
+mkdir partials;
+cd partials;
+touch _variables.scss;
+touch _common.scss;
+cd ../../..;
 npm install cross-env --save-dev;
-touch index.html
+touch index.html;
+echo -----finito-----;
 ```
 
 dentro il file *webpack.mix.js* sostituisci la riga 
