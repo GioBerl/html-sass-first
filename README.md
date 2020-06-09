@@ -6,7 +6,7 @@ npm init -y;
 npm install laravel-mix --save-dev;
 cp node_modules/laravel-mix/setup/webpack.mix.js ./;
 ni .gitignore;
-Set-Content .gitignore "node_module/`r`npackage-lock.json";
+Set-Content .gitignore "node_modules/`r`npackage-lock.json";
 mkdir src;
 cd src;
 mkdir js;
