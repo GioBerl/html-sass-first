@@ -23,7 +23,7 @@ ni _common.scss;
 cd ../../..;
 npm install cross-env --save-dev;
 ni index.html;
-echo *****finito*****;
+echo -----finito-----;
 ```
 
 ## Per Mac e Linux 
