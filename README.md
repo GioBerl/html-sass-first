@@ -5,24 +5,25 @@ tramite terminale **<u><mark>entra nella cartella di progetto</mark></u>**. una 
 npm init -y;
 npm install laravel-mix --save-dev;
 cp node_modules/laravel-mix/setup/webpack.mix.js ./;
-touch .gitignore;
+ni .gitignore;
 echo "node_modules/`rpackage-lock.json" >> .gitignore;
 mkdir src;
 cd src;
 mkdir js;
 cd js;
-touch app.js;
+ni app.js;
 cd ..;
 mkdir scss;
 cd scss;
-touch app.scss;
+ni app.scss;
 mkdir partials;
 cd partials;
-touch _variables.scss;
-touch _common.scss;
+ni _variables.scss;
+ni _common.scss;
 cd ../../..;
 npm install cross-env --save-dev;
-touch index.html
+ni index.html;
+echo *****finito*****;
 ```
 
 ## Per Mac e Linux 
